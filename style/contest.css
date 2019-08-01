@@ -1,0 +1,111 @@
+
+#game{
+	height: 370px;
+	width: 640px;
+	border:2px solid #AC2430;
+	margin:0 auto;
+	margin-top:1em;
+	position: relative;
+	border-radius: 5px;
+}
+#menu{
+	width: 40%;
+	text-align: left;
+	margin:0 auto;
+	margin-top:100px;
+}
+#menu div{
+	margin-top:10px;
+}
+
+#btn_reset{
+	text-align: center;
+}
+#btn_reset p{
+	color:#594A42;
+}
+#messages{
+	display: block;
+	width: 300px;
+	margin:0 auto;
+	font-size: 20px;
+}
+img[src*="clogo"]{
+
+}
+img[src*="clogo"]{
+
+}
+input{
+	margin-left:5px;
+	width: 100px;
+}
+#btn_all{
+	margin-left: 10px;
+}
+#btn_start{
+	margin-left: 30%;
+	margin-top:20px;
+}
+.pressed{
+	background-color: darkgrey;
+}
+.unpressed{
+	background-color: grey;
+}
+.tttfield{
+	height: 116px;
+	width: 210px;
+	display: inline-block;
+}
+.leftborder{
+	border-left: 2px solid black;
+}
+.rightborder{
+	border-right: 2px solid black;
+}
+.bottomborder{
+	border-bottom: 2px solid black;
+}
+.topborder{
+	border-top: 2px solid black;
+}
+
+.playfield{
+	background-color: #777;
+}
+.clogo{
+	/*background-image: url("images/clogo.png");*/
+	background-size: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.icon{
+	/*background-image: url("images/clogo.png");*/
+	background-size: 48%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.animated{
+	-moz-transition: 1s;
+  	-o-transition: 1s;
+  	-webkit-transition: 1s;
+  	transition: 1s;
+  	
+}
+
+.draws{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	height: 358px;
+	width: 638px;
+
+}
+.blur{
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);	
+}

@@ -1,0 +1,55 @@
+#siteloader {
+	/*border: 5px solid red;*/
+}
+#map-layout{
+	/*border: 1px dashed blue;*/
+	width: 800px;
+	height: 400px;	
+	margin:0 auto;
+}
+#preview{
+	width: 300px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #AC2430;
+	overflow: hidden;
+	border-radius: 5px;
+}
+#sitename, #preview-title{
+	text-align: center;
+}
+h2{
+	margin-bottom: 0;
+	font-size: 3em;
+	color:#594A42;
+}
+h2:hover{
+	cursor: pointer;	
+}
+#main{
+	/*text-align: center;*/
+}
+.sitediv{
+	background-color: #777;
+	position: relative;;
+	display: inline-block;
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 10px;
+	background-color:#594A42;
+	border:2px solid #AC2430;
+}
+.sitediv:hover{
+	cursor: pointer;
+	background-color:#CCCC98;
+}
+.overlaydiv{
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	top:0;
+}
+#preview{
+	position: relative;
+}

@@ -1,0 +1,98 @@
+html{
+	color:#594A42;
+}
+
+#careerstitle{
+	font-size:4rem;
+	text-align:center;
+	margin-bottom:0px;
+}
+#careers {
+	display:flex;
+	justify-content:center;
+	width:80%;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#careersdisplay {
+	display:none;
+}
+
+#kitchen {
+	order:1;
+	flex: 1 1 33%;
+	
+}
+
+#floor {
+	order:2;
+	flex: 1 1 33%
+	}
+
+#admin {
+	order:3;
+	flex: 1 1 33%;
+}
+
+
+#kitchenimg, #floorimg, #adminimg {
+	max-width:100%;
+	
+}
+
+#linecook {
+	
+}
+
+.redd {
+ 
+}
+
+.h2menu {
+	margin-bottom:0 px !important;
+	margin-top:0px;
+	
+	padding-bottom:0 px !important;
+	text-align:center;
+}
+.menulist ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+	font-size:1.25em;
+	
+	/* position:relative; */
+}
+
+.menulist li {
+    margin:0;
+    padding:0;
+    list-style:none;
+	font-size:1.25em;
+	
+	/* position:relative; */
+}
+
+.menulist{
+    display: none;
+	position:absolute;
+	list-style:none;
+	    list-style-type: none;
+    background-color: #CCCC98;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.3);
+    padding: 10px 85px; 
+
+  
+}
+
+.menulist:hover
+{
+	cursor:pointer;
+}
+
+ul{
+	    list-style-type: none;
+}

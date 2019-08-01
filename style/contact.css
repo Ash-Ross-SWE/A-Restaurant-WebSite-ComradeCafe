@@ -1,0 +1,167 @@
+/************************************************
+ * TABLE OF CONTENTS
+ * =================
+ * 1. DEFAULT OVERRIDES
+ * 2. CONTACT US IMAGE OVERLAY
+ * 3. FORM
+ * 4. THANKS MESSAGE
+ ***********************************************/
+
+
+/* 1. DEFAULT OVERRIDES */
+
+html{
+	box-sizing: border-box;
+	font-family: 'Rajdhani', sans-serif;
+	height: 100%;
+	color: #594A42;
+}
+
+main
+{
+  font-size: 1.5em;
+}
+
+/* 1. DEFAULT OVERRIDES */
+#contacts-img
+{
+  width: 600px;
+  height: 400px;
+  margin: 15px;
+}
+
+/* 2. CONTACT US IMAGE OVERLAY */
+
+#contact-us-image-container
+{
+  text-align: center;
+  margin:0 auto;
+  margin-top: 20px;
+  width: 600px;
+}
+
+
+.image {
+  opacity: 1;
+  transition: .5s ease;
+  margin:0 auto;
+}
+
+#middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#contact-us-image-container:hover .image {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+#contact-us-image-container:hover #middle {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#image-text {
+  background-color: #AC2430;
+  color: #FCF9CE;
+  padding: 16px 32px;
+}
+
+/* 3. FORM */
+
+.form-heading, #form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 1px;
+}
+
+#form-heading-text {
+  font-size: 60px;
+  text-shadow: 1px 1px 1px #ab9c81;
+}
+
+#form {
+  display: block;
+  text-align: center;
+  margin-top: 0em;
+}
+
+.form-field {
+    height: 50px;
+    font-size: 14px;
+    line-height: normal;
+    margin: 20px;
+    text-align: center;
+}
+
+#name, #email, #message {
+  height: 50px;
+  width: 500px;
+  border: 2px solid rgba(0,0,0,.1);
+  font-family:'Rajdhani', sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+  font-style: italic;
+  box-sizing: border-box;
+   outline: none;
+}
+
+#submit-field {
+  margin-bottom: 60px;
+}
+
+#work-form button {
+  height: 50px;
+  border:0;
+  background-color:#faa916;
+  color: #000;
+  border-radius: 10px;
+  padding:0.3em 1em;
+  text-transform:uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight:bold;
+  font-size:1em;
+  margin-top:1.2em;
+  cursor: pointer;
+  border: 1px solid #754f0a;
+}
+
+#submit-field #submit:hover{
+  background-color: #CCCC98;
+	color: #000;
+}
+
+#submit-field #submit {
+  background-color: #AC2430;
+  color: #FCF9CE;
+}
+
+
+#name:focus, #email:focus, #message:focus {
+   border: 2px solid #AC2430;
+}
+
+/* 4. THANKS MESSAGE */
+
+#thanks_msg
+{
+  height: 230px;
+	text-align: center;
+}
+
+#thanksCustomer, #thanksEmail
+{
+	 /*font-size: 1.5em;*/
+	 color: #AC2430;
+}

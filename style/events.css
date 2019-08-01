@@ -1,0 +1,221 @@
+
+html{
+	color:#594A42;
+}
+.hide {
+	display:none;
+}
+
+.h2box{
+	margin-top:0px;
+	
+}
+
+
+
+.headerbox {
+	text-align:center;
+	font-size:3.0rem;
+	margin: 1em;
+}
+
+/* Flexboxes uses to contain mask photo and column layout, along with the russian calendar */
+
+.articleflex {
+		display:flex;
+		width:80%;
+		flex-direction:row;
+		flex-wrap:no-wrap;
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:1em;
+}
+
+.boximg {
+max-width:100%;
+}
+
+.s1flex {
+	order:1;
+	flex: 1 1 50%;
+}
+
+.s2flex {
+	order:2;
+	margin-left:2em;
+	flex: 1 1 50%;
+}
+
+#shots {
+	margin-top:0px;
+}
+
+#tickets {
+	margin-bottom:0px;
+}
+
+
+
+/* ---------Form Styling ------------*/
+
+
+.form-heading, .form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 1px;
+}
+
+#form-heading-text {
+  font-size: 60px;
+  text-shadow: 1px 1px 1px #ab9c81;
+}
+
+.form {
+  display: block;
+  text-align: center;
+  margin-top: 0em;
+}
+
+.form-field {
+  
+    font-size: 14px;
+    line-height: normal;
+    margin: 20px;
+    text-align: center;
+}
+
+#name, #email, #message, #datepicker {
+  height: 50px;
+  width: 500px;
+ border: 2px solid rgba(0,0,0,.1); 
+  font-family:'Rajdhani', sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 14px;
+  font-style: italic;
+  box-sizing: border-box;
+   outline: none;
+}
+
+#submit-field {
+  margin-bottom: 60px;
+}
+
+.work-form button {
+  height: 50px;
+  border:0;
+  background-color:#faa916;
+  color: #000;
+  border-radius: 10px;
+  padding:0.3em 1em;
+  text-transform:uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight:bold;
+  font-size:1em;
+  margin-top:1.2em;
+  cursor: pointer;
+  border: 1px solid #754f0a;
+}
+
+
+
+#submit {
+  background-color: #AC2430;
+  color: #FCF9CE;
+  margin-left:40%;
+  margin-right:40%;
+ width:20%;
+
+}
+
+ #submit:hover {
+  background-color: #CCCC98;
+}
+
+#name:focus, #email:focus, #message:focus {
+   border: 2px solid #AC2430;
+}
+
+
+/* 
+------------------------
+Invoice Stuff. (Used Giftcard settings)
+------------------------
+*/
+#hidebooking{
+	margin-top:2em;
+	display: none; 
+}
+
+/* main invoice formatting */
+
+#giftcard{
+	border:1px solid black;
+	width: 80%;
+	min-height: 18em;
+	background-color: white;
+	margin-left: 10%;
+	min-height:35em;
+}
+
+
+
+
+#gcHeader{
+	text-align: center;
+	color: #594A42;
+	font-size: 2em;
+	
+	}
+	
+#
+.sidecontainer{
+	/* flex:1 0 100%;
+	justify-content:center;
+	*/
+	min-height:40em;
+	padding-left:20%;
+	padding-right:20%;
+	
+	position: relative;
+}
+
+
+/* Invoice Red Line Under header */
+#headerred {
+	border-bottom: 1px solid #AC2430;
+	margin-left:10%;
+	margin-right:10%;
+
+}
+/*----Stuff in Invoice
+#from, #to, #amount, #message2{
+	/*padding-left: 0.5em; */
+}
+#from_name, #to_name, #gift_amount, #gift_message{
+	/*
+	padding-left: 0.8em;
+	*/
+	margin-top: -25px;
+	
+}
+
+
+/*-- invoice box padding -- */
+#padder {
+	padding-left:10%;
+	padding-right:10%;
+}
+
+/* Jquery Date Stuff */
+.container {
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+  background: #ddd;
+}
+
+

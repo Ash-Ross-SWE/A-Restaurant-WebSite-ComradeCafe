@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Comrade Cafe</title>
+	<link rel="shortcut icon" href="images/icon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:700" rel="stylesheet">
+	<script src="javascript/jquery-3.2.1.min.js"></script>
+  <script src="javascript/menu.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+  <link rel="stylesheet" type="text/css" href="style/menu.css">
+</head>
+
+<body>
+	<!-- header nav -->
+	<div id="pagewrap">
+		<header id="header">
+			<div id="maintitle">
+				<div id="title">
+					<h1><a href="index.html">Comrade Cafe</a></h1>
+				</div>
+				<div id="logo">
+					<img id="mainlogo" src="images/icon.png" alt="Comrad Cafe logo">
+				</div>
+			</div>
+			<div id="menu-container">
+				<nav id="main-menu">
+					<ul id="mainlinks">
+						<li>
+							<a href="#">Product/Services</a>
+							<ul id="sublink1">
+								<li>
+									<a href="menu.html">Menu</a>
+								</li>
+								<li>
+									<a href="specials.html">Specials</a>
+								</li>
+								<li>
+									<a href="giftcard.html">Gift Cards</a>
+								</li>
+								<li>
+									<a href="events.html">Event/Booking</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="location.html">Location</a>
+						</li>
+						<li>
+							<a href="site-map.html">Site-Map</a>
+						</li>
+						<li>
+							<a href="aboutus.html">About Us</a>
+							<ul id="sublink2">
+								<li>
+									<a href="contact.html">Contact Us</a>
+								</li>
+								<li>
+									<a href="careers.html">Careers</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="contest.html">Contest</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+
+<!-- start of menu -->
+<main class="main-container">
+    <h2 id="menu-title">Our Menu</h2>
+    <p id="menu-description">The Comrade Cafe's menu is a continually evolving repertoire;
+    some classics, some reworking of old favourites and new dishes for each season</p>
+    <div id="four-sections">
+    <section class="menu-section">
+      <div class="image-container">           <!-- appetizer menu -->
+        <figure class="gallery-item">
+        <img id="appetizer-img" class="menu_img" src="images/menu/appetizers.jpg" alt="Appetizers Menu" />
+          <figcaption class="img-title">
+           <div id="appetizer_id" class="menu-details">
+           <ul class="menu-desc">
+              <li>Caviar for Comrads - $9.99</li>
+              <li>Builder’s Russian Black Bread - $10.99</li>
+              <li>Pickles and Sprats - $7.99</li>
+              <li>Hard boiled eggs and Herring Heads - $8.99</li>
+           </ul>
+         </div>
+         </figcaption>
+              </figure>
+              <h3 id="appetizer-heading" class="menu-heading">Appetizers</h3>
+    </div>
+
+
+      <div class="image-container">              <!-- lunch menu -->
+        <figure class="gallery-item">
+        <img id="lunch-img" class="menu_img" src="images/menu/lunch.jpg" alt="Lunch Menu" />
+        <figcaption class="img-title">
+          <div id="lunch_id" class="menu-details">
+          <ul class="menu-desc">
+            <li>Brother’s Borscht - $15.99</li>
+            <li>Rassolnik - $19.99</li>
+            <li>Olivier Salad - $13.99</li>
+            <li>Bliny - $12.99</li>
+          </ul>
+        </div>
+        </figcaption>
+      </figure>
+        <h3 id="lunch-heading" class="menu-heading">Lunch</h3>
+        <label id="availability-lunch">Currently not serving Lunch, served only between 12pm to 4pm</label>
+      </div>
+    </section>
+    <section class="menu-section">
+      <div class="image-container">              <!-- dinner menu -->
+        <figure class="gallery-item">
+          <img id="dinner-img" class="menu_img" src="images/menu/dinner.png" alt="Dinner Menu" />
+            <figcaption class="img-title">
+                <div id="dinner_id" class="menu-details">
+                  <ul class="menu-desc">
+              <li>Stroganoff for Soviets - $20.99</li>
+              <li>Golubsty - $22.99</li>
+              <li>Kasha - $15.49</li>
+              <li>Pelmeni - $16.99</li>
+              <li>Pirog - $13.49</li>
+              <li>Plov - $19.99</li>
+              <li>Goulash - $18.99</li>
+                  </ul>
+              </div>
+          </figcaption>
+       </figure>
+        <h3 id="dinner-heading" class="menu-heading">Dinner</h3>
+        <label id="availability-dinner">Currently not serving Dinner, served only between 4pm to 10pm</label>
+    </div>
+      <div class="image-container">             <!-- desserts menu -->
+          <figure class="gallery-item">
+               <img id="desserts-img" class="menu_img" src="images/menu/desserts.jpg" alt="Desserts Menu" />
+                 <figcaption class="img-title">
+                    <div id="desserts_id" class="menu-details">
+                      <ul class="menu-desc">
+                        <li>Rosa's butter cookies - $15.99</li>
+                        <li>Red currant kissel - $19.99</li>
+                        <li>Cottage cheese pancakes with cherry syrup - $23.49</li>
+                      </ul>
+                    </div>
+                 </figcaption>
+         </figure>
+    <h3 id="desserts-heading" class="menu-heading">Desserts</h3>
+      </div>
+      </section>
+    </div>
+
+      <div id="image-container">        <!-- comrade offers menu -->
+        <figure id= "last-figure" class="gallery-item">
+            <img id="specials-img" class="menu_img" src="images/menu/specials.png" alt="Comrade Offers Menu" />
+               <figcaption class="img-title">
+                   <div id="specials_id" class="menu-details">
+                     <ul class="menu-desc">
+                       <li>A bowl of soup for $3</li>
+                       <li>A cup of coffee for $ 1.50</li>
+                       <li>Cutlet with mashed potatoes $7</li>
+                       <li>Cabbage rolls with beet salad for $7.50</li>
+                       <li>Perogies with bacon and mushrooms for $10</li>
+                     </ul>
+                   </div>
+               </figcaption>
+        </figure>
+        <h3 id="specials-heading" class="menu-heading">Comrade Offers</h3>
+        <label id="availability-offers">Comrade offers are available RIGHT NOW between 6pm to 7pm</label>
+        <label id="not-available-offers">Comrade offers is not available right now. It is available only between 6pm to 7pm</label>
+      </div>
+
+  </main>
+  </div>
+
+ <!-- footer -->
+<footer id="footer">
+  <div id="footer-nav">
+    <div id="left" class="sidefooter">
+      <ul>
+        <li>
+          <a href="#">Menu</a>
+        </li>
+        <li>
+          <a href="specials.html">Specials</a>
+        </li>
+        <li>
+          <a href="giftcard.html">Gift Card</a>
+        </li>
+        <li>
+          <a href="events.html">Events/Booking</a>
+        </li>
+        <li>
+          <a href="location.html">Location</a>
+        </li>
+      </ul>
+    </div>
+    <div id="right" class="sidefooter">
+      <ul>
+        <li>
+          <a href="site-map.html">Site Map</a>
+        </li>
+        <li>
+          <a href="contest.html">Contest</a>
+        </li>
+        <li>
+          <a href="aboutus.html">About Us</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact Us</a>
+        </li>
+        <li>
+          <a href="careers.html">Careers</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="social">
+    <div>
+      <a href=""><img src="images/fb.png" alt=""></a>
+    </div>
+    <div>
+      <a href=""><img src="images/inst.png" alt=""></a>
+    </div>
+    <div>
+      <a href=""><img src="images/tw.png" alt=""></a>
+    </div>
+    <div>
+      <a href=""><img src="images/ut.png" alt=""></a>
+    </div>
+  </div>
+  <p>
+    Comrade Cafe © 2018. All rights reserved.
+  </p>
+  </footer>
+</body>
+</html>

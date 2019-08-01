@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Comrade Cafe</title>
+	<link rel="shortcut icon" href="images/icon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:700" rel="stylesheet">
+	<script src="javascript/jquery-3.2.1.min.js"></script>
+	<meta charset="utf-8"/>
+	<script type="text/javascript" src="javascript/tictactoe.js"></script>
+	<script type="text/javascript" src="javascript/contest.js"></script>
+	 <link rel="stylesheet" type="text/css" href="style/contest.css">
+	  <link rel="stylesheet" type="text/css" href="style/common.css">
+</head>
+
+<body>
+	
+	<div id="pagewrap">
+		<header id="header">
+			<div id="maintitle">
+				<div id="title">
+					<h1><a href="index.html">Comrade Cafe</a></h1>
+				</div>
+				<div id="logo">
+					<img id="mainlogo" src="images/icon.png" alt="Comrad Cafe logo">
+				</div>
+			</div>
+			<div id="menu-container">
+				<nav id="main-menu">
+					<ul id="mainlinks">
+						<li>
+							<a href="#">Product/Services</a>
+							<ul id="sublink1">
+								<li>
+									<a href="menu.html">Menu</a>
+								</li>
+								<li>
+									<a href="specials.html">Specials</a>
+								</li>
+								<li>
+									<a href="giftcard.html">Gift Cards</a>
+								</li>
+								<li>
+									<a href="events.html">Event/Booking</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="location.html">Location</a>
+						</li>
+						<li>
+							<a href="site-map.html">Site-Map</a>
+						</li>
+						<li>
+							<a href="aboutus.html">About Us</a>
+							<ul id="sublink2">
+								<li>
+									<a href="contact.html">Contact Us</a>
+								</li>
+								<li>
+									<a href="careers.html">Careers</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="contest.html">Contest</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main id="main">
+			<!-- game section -->
+			<div id="game" class="animated">
+				
+	<!-- 		<canvas id="drawings">
+				
+			</canvas> -->
+				
+			</div>
+			<div id="btn_reset">
+				<label id="messages" class="animated">.</label>
+				<button id="btn_pagain" onclick="loadTicTacToe()" disabled="disabled" >Play Again</button>
+				<button id="btn_bmenu" onclick="drawMenu()" disabled="disabled">Back to Menu</button>
+				<p>* Win on hard difficulty get a free meal</p>
+			</div>
+		</main>
+		
+	</div>
+	<footer id="footer">
+		<div id="footer-nav">
+			<div id="left" class="sidefooter">
+				<ul>
+					<li>
+						<a href="menu.html">Menu</a>
+					</li>
+					<li>
+						<a href="specials.html">Specials</a>
+					</li>
+					<li>
+						<a href="giftcard.html">Gift Card</a>
+					</li>
+					<li>
+						<a href="events.html">Events/Booking</a>
+					</li>
+					<li>
+						<a href="location.html">Location</a>
+					</li>
+				</ul>
+			</div>
+			<div id="right" class="sidefooter">
+				<ul>
+					<li>
+						<a href="site-map.html">Site Map</a>
+					</li>
+					<li>
+						<a href="contest.html">Contest</a>
+					</li>
+					<li>
+						<a href="aboutus.html">About Us</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact Us</a>
+					</li>
+					<li>
+						<a href="careers.html">Careers</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="social">
+			<div>
+				<a href=""><img src="images/fb.png" alt=""></a>
+			</div>
+			<div>
+				<a href=""><img src="images/inst.png" alt=""></a>
+			</div>
+			<div>
+				<a href=""><img src="images/tw.png" alt=""></a>
+			</div>
+			<div>
+				<a href=""><img src="images/ut.png" alt=""></a>
+			</div>
+		</div>
+		<p>
+			Comrade Cafe © 2018. All rights reserved.
+		</p>
+	</footer>
+</body>

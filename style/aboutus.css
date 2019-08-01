@@ -1,0 +1,64 @@
+/*INITIAL*/
+
+body {
+	background-color: #FCF9CE;
+	}  
+
+h2, p, #ul_ms {
+	font-family: 'Rajdhani', Arial, sans-serif;
+	color: #594A42;
+}
+#div_top_btns{
+	padding-left: 25%;
+}
+
+#h2_about_us{
+	font-size: 5em;
+	margin-top: -1px;
+}
+#flex_splash{
+	display: flex;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+/*SPALSH SECTION*/
+
+.splash_section{
+	flex:1 0 0;
+}
+#main_logo{
+	max-width: 100%;
+}
+.quote{
+	font-family: 'Rajdhani', Arial, sans-serif;
+	color: #594A42;
+	font-size: 1.5em;
+	margin-top: -7px;
+}
+#flex_2{
+	text-align: right;
+	padding-left: 3%;
+}
+
+/*BUTTONS*/
+
+.btns_top{
+	margin-right: 8%;
+	padding-left: 2%;
+	padding-right: 2%;
+	min-width: 5em;
+	min-height: 2em;
+	background-color: #777;
+	border-radius: 10px;
+	background-color:#594A42;
+	border:2px solid #AC2430;
+	font-family: 'Rajdhani', sans-serif;
+	color: white;
+	font-size: 1.25em;
+	outline: none;
+}
+.btns_top:hover{
+	cursor: pointer;
+	background-color:#CCCC98;
+}

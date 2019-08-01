@@ -1,0 +1,197 @@
+/***************************
+* TABLE OF CONTENTS
+*
+*=========================
+*1. DEFAULT OVERRIDES
+*2. HEADER
+***************************/
+
+html{
+	box-sizing: border-box;
+	font-family: 'Rajdhani', sans-serif;
+	height: 100%;
+}
+body{
+	margin:0;
+}
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+h1{
+	font-size: 6em;
+	color: #594A42;
+	text-transform: uppercase;
+	display: inline-block;
+	margin:0;
+}
+h1 a{
+	text-decoration: none;
+	color: #594A42;
+}
+#maintitle{
+	text-align: center;
+	display: flex;
+	flex-flow: row wrap;
+	width: 900px;
+	margin: 0 auto;
+}
+#mainlogo{
+	width: 100%;
+}
+#logo{
+	flex: 1 0 0;
+}
+#title{
+	margin-left: 2%;
+	margin-top:60px;
+	flex: 3 0 0;
+}
+
+/*object{
+	width: 100%;
+	height: 3em;
+	margin:0 auto;
+	border-bottom: 5px solid #AC2430;
+	text-align: center;	
+	background-color: #cccc98;
+	height: 100%;
+}*/
+nav{
+	text-align: center;
+}
+#header{
+	border-bottom: 5px solid #AC2430;
+	text-align: center;
+	/*position: relative;*/
+}
+#main-menu{
+	z-index: -1;
+}
+#main-menu a{
+	text-decoration: none;
+	color:#594A42;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#main-menu a:hover{
+
+	/*background-color: #594A42;*/
+	color: #AC2430;
+}
+#main-menu ul li{
+	display:inline-block;
+	margin-right: 10px;
+	color: #594A42;
+}
+#main-menu li {
+	position:relative;
+}
+#mainlinks>li>a{
+	padding:6px;
+}
+#main-menu ul ul{
+	position:absolute;
+	background-color: #594A42;
+	left:-10000px;
+}
+#main-menu ul ul li{
+	display: block;
+}
+#main-menu ul ul a{
+	color:#cccc98;
+}
+#main-menu ul li:hover ul{
+	left:6px;
+}
+#sublink1 {
+	padding-left: 13px;
+	z-index: 1000;
+}
+#sublink2{
+	padding-left:0;
+	width: 130px;
+	text-align: center;
+	z-index: 1000;
+}
+
+#menu-container
+{
+	/*position: absolute;
+	bottom: 0px;*/
+	width: 100%;
+	text-align: center;
+	vertical-align: bottom;
+}
+#pagewrap
+{
+	/*max-width: 1024px;*/
+	margin:0 auto;
+	border:1px solid black;
+	/*background:#cccc98;*/
+	background-image: url("../images/backdrops/watermark_1925px.png");
+	background-size: 100%;
+	background-attachment: fixed;
+	margin-bottom: 250px;
+	position: relative;
+	z-index:10;
+	border-bottom: 5px solid #AC2430;
+	padding-bottom: 30px;
+	
+}
+main{
+	margin-left: 10%;
+	margin-right: 10%;
+	position: relative;
+
+}
+#footer{
+	background-color: #594A42;
+	margin-top:2em;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index:1;
+}
+#footer-nav{
+	display: flex;
+	flex-flow: row wrap;
+	width: 400px;
+	margin:0 auto;
+	font-size: 1.2em;
+}
+#footer-nav a{
+	text-decoration: none;
+	color:#fcF9ce;
+}
+#footer-nav a:hover{
+	color: #e9b79d;
+}
+.sidefooter{
+	flex:1 0 0;
+}
+.sidefooter ul{
+	list-style: none;
+}
+.sidefooter li{
+	margin-bottom: 5px;
+}
+#social{
+	display: flex;
+	flex-wrap: row wrap;
+	width: 300px;
+	margin:0 auto;
+}
+#social div{
+	flex:1 0 0;
+}
+#social img{
+	height: 40px;
+}
+#footer p{
+	margin:0 auto;
+	margin-top:10px;
+	text-align: right;
+	color: #cccc98;
+}
+

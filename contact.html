@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Comrade Cafe</title>
+	<link rel="shortcut icon" href="images/icon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:700" rel="stylesheet">
+	<script src="javascript/jquery-3.2.1.min.js"></script>
+  <script src="javascript/menu.js"></script>
+  <script src="javascript/contact.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+  <link rel="stylesheet" type="text/css" href="style/contact.css">
+</head>
+
+<body>
+	<!-- header nav -->
+	<div id="pagewrap">
+		<header id="header">
+			<div id="maintitle">
+				<div id="title">
+					<h1><a href="index.html">Comrade Cafe</a></h1>
+				</div>
+				<div id="logo">
+					<img id="mainlogo" src="images/icon.png" alt="Comrad Cafe logo">
+				</div>
+			</div>
+			<div id="menu-container">
+				<nav id="main-menu">
+					<ul id="mainlinks">
+						<li>
+							<a href="#">Product/Services</a>
+							<ul id="sublink1">
+								<li>
+									<a href="menu.html">Menu</a>
+								</li>
+								<li>
+									<a href="specials.html">Specials</a>
+								</li>
+								<li>
+									<a href="giftcard.html">Gift Cards</a>
+								</li>
+								<li>
+									<a href="events.html">Event/Booking</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="location.html">Location</a>
+						</li>
+						<li>
+							<a href="site-map.html">Site-Map</a>
+						</li>
+						<li>
+							<a href="aboutus.html">About Us</a>
+							<ul id="sublink2">
+								<li>
+									<a href="contact.html">Contact Us</a>
+								</li>
+								<li>
+									<a href="careers.html">Careers</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="contest.html">Contest</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+
+<!-- contact page content-->
+<main id="main-container">
+   <div id="contact-us-image-container">           <!-- contact us heading -->
+     <h2 id="contact-msg">CONTACT US COMRADE!</h2>
+       <img class="image" id="contacts-img" src="images/contact-us/contact.jpg" alt="Contact Us" />
+     <div id="middle">
+       <div id="image-text">CONTACT US</div>
+     </div>
+   </div>
+
+ <div id="form">                  <!-- contact form -->
+   <div class="form-heading">
+   <h2 id="form-heading-text">Hit us up!</h2>
+ </div> <!-- end of form-heading div -->
+   <form id="work-form" action="contact.html" method="post">
+     <div class="form-field">
+       <label for="name"></label>
+       <input type="text" id="name" name="user_name" placeholder="Your name..." />
+     </div>
+       <div class="form-field">
+       <label for="email"></label>
+       <input type="text" id="email" name="user_email" placeholder="Your e-mail..." />
+         </div>
+         <div class="form-field">
+       <label for="message"></label>
+       <input type="text" id="message" name="user_message" placeholder="Your message..." />
+         </div>
+       <div id="submit-field">
+     <button type="submit" id="submit" name="submit">Submit</button>
+   </div>
+   </form>
+   </div>
+
+   <div id="thanks_msg">    <!-- final thanks message on submit of the form -->
+   	<h3>Thank you <span id="thanksCustomer"></span> for your message!</h3>
+   	<div>
+   		<p>We will get back to you within 48 hours on your email ID: <span id="thanksEmail"></span></p>
+   	</div>
+   </div>
+</main>
+
+<!-- end of contact us page content -->
+
+  </div>
+    <footer id="footer">
+      <div id="footer-nav">
+        <div id="left" class="sidefooter">
+          <ul>
+            <li>
+              <a href="menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="specials.html">Specials</a>
+            </li>
+            <li>
+              <a href="giftcard.html">Gift Card</a>
+            </li>
+            <li>
+              <a href="events.html">Events/Booking</a>
+            </li>
+            <li>
+              <a href="location.html">Location</a>
+            </li>
+          </ul>
+        </div>
+        <div id="right" class="sidefooter">
+          <ul>
+            <li>
+              <a href="site-map.html">Site Map</a>
+            </li>
+            <li>
+              <a href="contest.html">Contest</a>
+            </li>
+            <li>
+              <a href="aboutus.html">About Us</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="careers.html">Careers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="social">
+        <div>
+          <a href=""><img src="images/fb.png" alt=""></a>
+        </div>
+        <div>
+          <a href=""><img src="images/inst.png" alt=""></a>
+        </div>
+        <div>
+          <a href=""><img src="images/tw.png" alt=""></a>
+        </div>
+        <div>
+          <a href=""><img src="images/ut.png" alt=""></a>
+        </div>
+      </div>
+      <p>
+        Comrade Cafe © 2018. All rights reserved.
+      </p>
+      </footer>
+    </body>
+    </html>

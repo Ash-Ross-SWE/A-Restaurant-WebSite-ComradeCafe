@@ -1,0 +1,29 @@
+#header{
+	display: none;
+	margin-bottom: 2em;
+}
+#pagewrap{
+	background-image: none;
+	background-color: #fcF9ce;
+}
+#img-container{
+	margin:0 auto;
+	text-align: center;
+}
+#img-container img{
+	width: 700px;
+	height: auto;
+	display: block;
+	margin:0 auto;
+}
+
+#welcome_message{
+	font-size: 2em;
+	color: #594A42;
+}
+.animated{
+	-moz-transition: 1s;
+  	-o-transition: 1s;
+  	-webkit-transition: 1s;
+  	transition: 1s;
+}

@@ -1,0 +1,87 @@
+#main {
+	display:none;
+}
+
+/*  Main daily special display box  */
+#flexspecial {
+		display:flex;
+	justify-content:center;
+	width:80%;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	margin-left:10%;
+	margin-right:10%;
+	max-height:20em;
+}
+
+#flexleft {
+		order:1;
+	flex: 1 1 20%;
+	padding-right:3em;
+	padding-top: 9%;
+	max-width:100%;
+	max-height:100%;
+}
+
+#flexcenter {
+		order:2;
+	flex: 1 0 60%;
+	
+}
+
+#flexright{
+		order:3;
+	flex: 1 1 20%;
+	padding-left:3em;
+	padding-top: 9%;
+	max-width:100%;
+	max-height:100%;
+	
+}
+
+#centerimg
+{
+	width:100%;
+	max-height:100%;
+	max-width:100%;
+}
+
+#specimg
+{
+	max-height:100%;
+	max-width:100%;
+}
+
+#monimg {
+	width:100%;
+}
+#tuesimg, #wedimg, #thursimg, #friimg, #satimg, #sunimg {
+	display:none;
+	width:100%;
+}
+
+/*  header */
+#dstitle {
+	font-size: 3em;
+	margin:0.5em;
+text-align: center;
+color:#594A42;
+}
+
+/* Day and description styling */
+#specday {
+		font-size: 3em;
+text-align: center;
+color:#594A42;
+margin-bottom:0px;
+margin-top:0.25em;
+padding:0px;
+}
+
+#specdesc {
+		font-size: 2em;
+text-align: center;
+color:#594A42;
+margin:0.25em;
+padding:0px;
+}

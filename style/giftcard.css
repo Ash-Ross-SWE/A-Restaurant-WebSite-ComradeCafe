@@ -1,0 +1,185 @@
+/*DEFAULT OVERRIDES*/
+
+
+
+/* 
+------------------------
+GIFTCARD
+------------------------
+*/
+
+
+#giftcard{
+	border:6px solid #AC2430;
+	border-radius: 1em;
+	max-width: 450px;
+	min-height: 175px;
+	background-color: white;
+	display:flex;
+	margin-left: 28%;
+}
+.pic_side{
+	max-height: 12em;
+	margin-top: 15%;
+	margin-right: 12%;
+	float: right;
+	z-index: auto;
+}
+
+.marxcolours{
+	max-height: 4em;
+	z-index: 1;
+	position: absolute;
+	top:110px;
+	left:65px;
+}
+
+#gcHeader{
+	text-align: center;
+	color: #594A42;
+	font-size: 2em;
+}
+.sidecontainer{
+	flex:1 0 0;
+	position: relative;
+}
+
+/*----WRITING IN CARD*/
+
+#from, #h2_to, #amount, #message{
+	padding-left: 0.5em;
+}
+#from_name, #to_name, #gift_amount, #gift_message{
+	padding-left: 0.5em;
+	margin-top: -25px;
+}
+
+/*----------------------
+FORM STYLING
+----------------------*/
+
+/*---LEFT SIDEBAR*/
+
+#giftcard_form{
+	display: flex;
+	margin-left: 22%;
+	margin-top: 5%;
+}
+#form_sidebar{
+	flex:1 0 0;
+}
+label {
+	font-size: 2em;
+	color: #594A42;
+}
+#second_sidebar{
+	margin-left: 4%;
+}
+#messagetxtbox{
+	min-height: 12em;
+	min-width: 20em;
+	margin-top: 1em;
+	border: 2px solid rgba(0,0,0,.1);
+	border-radius: 10px;
+
+}
+#txtbox_message{
+	padding-left: 40%;
+	padding-top: 2%;
+}
+#txt_box_message_wrapper{
+	 margin-left: auto;
+  	margin-right: auto;
+	position: relative;
+}
+#fname{
+	min-width: 17em;
+	min-height: 2.25em;
+}
+#to_giftee{
+	min-width: 20em;
+	/*min-height: 2.25em;*/
+}
+#input_amount{
+	min-width: 14.75em;
+	min-height: 2.25em;
+}
+#fname, #to_giftee, #input_amount, #messagetxtbox{
+	/*border: 2px solid rgba(0,0,0,.1);*/
+  	font-family:'Rajdhani', sans-serif;
+  	border-radius: 10px;
+  	padding: 7px;
+  	font-size: 14px;
+  	outline: none;
+}
+#fname:focus, #to_giftee:focus, #input_amount:focus, #messagetxtbox:focus{
+	border: 2px solid #AC2430;
+}
+
+/*-----INPUTS*/
+/*background*/
+
+#btn_bg_grey{
+	background-color: #bcbaba;
+}
+#btn_bg_green{
+	background-color: #CCCC98;
+}
+#btn_bg_red{
+	background-color: #ac2430;
+}
+/*star*/
+#star_copper{
+	background-color: #c95805;
+}
+#star_green{
+	background-color: #0b8726;
+}
+#star_red{
+	background-color: #ed0a26;
+}
+#btn_olive_marx{
+	background-color: #3f3f2b;
+}
+#btn_purple_marx{
+	background-color: #620d99;
+}
+#btn_periwinle_marx{
+	background-color: #46407f;
+}
+
+/*BUTTONS*/
+
+#bottom_btn_div{
+	padding-left: 43%;
+	padding-top: 2.5%;
+}
+.btn_bottom{
+	min-width: 5em;
+	min-height: 2em;
+	background-color: #777;
+	border-radius: 10px;
+	background-color:#594A42;
+	border:2px solid #AC2430;
+	font-family: 'Rajdhani', sans-serif;
+	color: #FCF9CE;
+	font-size: 1.25em;
+	outline: none;
+}
+.btn_bottom:hover{
+	cursor: pointer;
+	background-color:#CCCC98;
+}
+
+/*THANK YOU MESSAGE*/
+
+#thank_you_message{
+	color: #594A42;
+	margin-left: 11%;
+}
+
+
+
+
+
+

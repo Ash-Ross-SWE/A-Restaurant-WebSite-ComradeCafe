@@ -1,0 +1,113 @@
+/*OVERWRITES*/
+
+main{
+	max-width: 60%;
+  min-width: 980px;
+  margin: 0 auto;
+}
+
+/*MAP*/
+
+#map {
+  height: 500px;
+  margin-top: 20px;
+}
+
+/*TITLE AND FONT*/
+
+.headers{
+	color: #594A42;
+	margin-left: 28%;
+	font-size: 3em;
+}
+#h2_locations{
+  padding-left: 10%;
+}
+h3{
+	color: #594A42;
+	font-size: 1.75em;
+}
+p{
+	color: #594A42;
+	margin-bottom: -10px;
+}
+
+
+/*FLEXBOX*/
+
+#scarberia-wrapper{
+	display: flex;
+}
+.location_flex_1{
+	flex:1 0 0;
+}
+#middle_box{
+	text-align: center;
+  min-width: 330px;
+}
+#scarberia_pic, #trendy_cafe{
+	padding-bottom: 2em;
+}
+
+
+/*FORM*/
+
+#h2_find_your_way{
+  padding-left: 7%;
+}
+#p_find_your_way{
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+.work-form button {
+  height: 50px;
+  border:0;
+  background-color:#AC2430;
+  color: #000;
+  border-radius: 10px;
+  padding:0.3em 1em;
+  text-transform:uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight:bold;
+  font-size:1em;
+  margin-top:1.2em;
+  cursor: pointer;
+  border: 1px solid #754f0a;
+  outline: none;
+}
+.form-field {
+    height: 50px;
+    font-size: 14px;
+    line-height: normal;
+    margin: 20px;
+    text-align: center;
+}
+#field_city, #field_address, #field_PC {
+  height: 50px;
+  width: 500px;
+  border: 2px solid rgba(0,0,0,.1);
+  font-family:'Rajdhani', sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+  font-style: italic;
+  box-sizing: border-box;
+   outline: none;
+}
+#field_city:focus, #field_address:focus, #field_PC:focus {
+   border: 2px solid #AC2430;
+}
+#submit-field{
+  text-align: center;
+}
+#submit:hover{
+  background-color: #CCCC98;
+}
+
+
+
+
+
+
+

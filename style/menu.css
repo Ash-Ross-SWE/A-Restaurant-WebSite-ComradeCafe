@@ -1,0 +1,114 @@
+/************************************************
+ * TABLE OF CONTENTS
+ * =================
+ * 1. DEFAULT OVERRIDES
+ * 2. MENU HEADING
+ * 3. MENU SECTIONS
+ ***********************************************/
+
+/* 1. DEFAULT OVERRIDES */
+
+html{
+	box-sizing: border-box;
+	font-family: 'Rajdhani', sans-serif;
+	height: 100%;
+	color: #594A42;
+}
+
+main
+{
+  font-size: 1.5em;
+}
+
+#main-container{
+	margin:0 auto;
+}
+
+/* 2. MENU HEADING */
+
+#menu-title, #menu-description
+{
+ text-align: center;
+}
+
+/* 3. MENU SECTIONS */
+
+.menu-section
+{
+
+	margin: 0 auto;
+  display: inline-flex;
+	text-align: center;
+
+}
+
+.image-container{
+	display: inline-block;
+}
+
+.menu-details
+{
+  text-align: left;
+  width: 500px;
+	margin-top: 13%;
+}
+
+.menu_img
+{
+	width: 500px;
+	height: 350px;
+	padding: 15px;
+}
+
+
+#four-sections
+{
+  text-align: center;
+}
+
+#appetizer_id, #lunch_id, #dinner_id, #desserts_id, #specials_id {
+  position: absolute;
+}
+
+.menu-desc li
+{
+  text-decoration: none;
+	color:  #AC2430;
+	text-shadow: 1px 0px 1px #FCF9CE;
+	cursor: pointer;
+
+}
+
+.menu-desc
+{
+  list-style: none;
+}
+
+
+.gallery-item {
+    position: relative;
+}
+
+.img-title {
+    position: absolute;
+    top: 0;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+#availability-offers, #not-available-offers, #specials-heading
+{
+	width: 45%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+#last-figure
+{
+	width:500px;
+	margin:0 auto;
+}

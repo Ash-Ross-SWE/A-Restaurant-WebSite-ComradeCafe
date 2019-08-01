@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Location</title>
+	<link rel="shortcut icon" href="images/icon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Rajdhani:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/common.css">
+	<link rel="stylesheet" type="text/css" href="style/location.css">
+</head>
+<body>
+	<div id="pagewrap">
+		<header id="header">
+			<div id="maintitle">
+				<div id="title">
+					<h1><a href="index.html">Comrade Cafe</a></h1>
+				</div>
+				<div id="logo">
+					<img id="mainlogo" src="images/icon.png" alt="Comrad Cafe logo">
+				</div>
+			</div>
+			<div id="menu-container">
+				<nav id="main-menu">
+					<ul id="mainlinks">
+						<li>
+							<a href="#">Product/Services</a>
+							<ul id="sublink1">
+								<li>
+									<a href="menu.html">Menu</a>
+								</li>
+								<li>
+									<a href="specials.html">Specials</a>
+								</li>
+								<li>
+									<a href="giftcard.html">Gift Cards</a>
+								</li>
+								<li>
+									<a href="events.html">Event/Booking</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="location.html">Location</a>
+						</li>
+						<li>
+							<a href="site-map.html">Site-Map</a>
+						</li>
+						<li>
+							<a href="aboutus.html">About Us</a>
+							<ul id="sublink2">
+								<li>
+									<a href="contact.html">Contact Us</a>
+								</li>
+								<li>
+									<a href="careers.html">Careers</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="contest.html">Contest</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+			<h2 class="headers" id="h2_locations">Location</h2>
+				<div class="location_flex_1" id="scarberia-wrapper">
+					<div id="column_left_scarberia">		
+						<img id="scarberia_pic" src="images/location/scarberia.jpg" alt="woman drinking tea in cold weather">
+					</div>
+					<div class="location_flex_1" id="middle_box">
+						<h3>Scarberian Comrades</h3>
+						<p>3700 Kingston Road</p>
+						<p>Scarborough, Ontario, Canada</p>
+						<p>M1J 2H7</p>
+					</div>
+					<div class="location_flex_1">
+						<img id="trendy_cafe" src="images/location/hipster.jpg" alt="A trendy cafe">
+						
+					</div>
+				</div>
+
+
+<!-- MAP SECTION -->
+ 
+  				<div id="map-canvas" height="500" width="500"></div>
+				<iframe 
+  					id="iframe"
+  					width="945"
+  					height="650"
+  					frameborder="0" 
+  					style="border:0"
+  					src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB-_hQ1jJbLvEGWUK4sYD412b194evXlbw
+   					 &q=43.744136,-79.211772" allowfullscreen>
+					</iframe>
+				
+
+  <!-- FORM -->
+  				<h2 class="headers" id="h2_find_your_way">Find Your Way</h2>
+  				<p id="p_find_your_way">Enter your address below to generate directions above</p>
+
+
+				<form id="form" class="work-form" action="" method="post">
+				    <div class="form-field">
+				       <label for="name"></label>
+				       <input type="text" id="field_city" placeholder="Your city..." />
+				    </div>
+				    <div class="form-field">
+				       <label for="email"></label>
+				       <input type="text" id="field_address" placeholder="Your address..." />
+				    </div>
+				    <div class="form-field">
+				       <label for="message"></label>
+				       <input type="text" id="field_PC" placeholder="Your postal code..." />
+				    </div>
+				    <div id="submit-field">
+
+				    <button id="submit" onClick="enter()">Enter</button/>
+				        
+
+				   </div>
+				</form>
+    
+
+<!-- END OF MAP SECTION -->
+
+			
+		</main>	
+	</div> <!-- end of page wrap div -->
+	<footer id="footer">
+			<div id="footer-nav">
+				<div id="left" class="sidefooter">
+					<ul>
+						<li>
+							<a href="menu.html">Menu</a>
+						</li>
+						<li>
+							<a href="specials.html">Specials</a>
+						</li>
+						<li>
+							<a href="giftcard.html">Gift Card</a>
+						</li>
+						<li>
+							<a href="events.html">Events/Booking</a>
+						</li>
+						<li>
+							<a href="location.html">Location</a>
+						</li>
+					</ul>
+				</div>
+				<div id="right" class="sidefooter">
+					<ul>
+						<li>
+							<a href="site-map.html">Site Map</a>
+						</li>
+						<li>
+							<a href="context.html">Contest</a>
+						</li>
+						<li>
+							<a href="aboutus.html">About Us</a>
+						</li>
+						<li>
+							<a href="contact.html">Contact Us</a>
+						</li>
+						<li>
+							<a href="careers.html">Careers</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="social">
+				<div>
+					<a href=""><img src="images/fb.png" alt=""></a>
+				</div>
+				<div>
+					<a href=""><img src="images/inst.png" alt=""></a>
+				</div>
+				<div>
+					<a href=""><img src="images/tw.png" alt=""></a>
+				</div>
+				<div>
+					<a href=""><img src="images/ut.png" alt=""></a>
+				</div>
+			</div>
+			<p>
+				Comrade Cafe © 2018. All rights reserved.
+			</p>
+		</footer>
+
+</body>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="javascript/location.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<!--     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUm4CECgqiPy89D9yQ3tKA90u_kDSp5f8&callback=initMap"
+    async defer></script> -->
+</html>
